@@ -4,3 +4,9 @@ public:
 	string author;
 	string count;
 };
+
+int main() {
+	TBook book1;
+
+	return 0;
+}
