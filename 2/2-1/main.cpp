@@ -2,9 +2,8 @@ class Road{
 public:
 	double length;
 	int width;
-	Road();
+	Road(){
+		length = 120.2;
+		width = 13;
+	};
 };
-Road::Road() {
-	length = 120.2;
-	width = 13;
-}
