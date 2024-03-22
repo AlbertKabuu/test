@@ -7,3 +7,7 @@ public:
 		width = 11;
 	}
 };
+
+int main(){
+	
+}
