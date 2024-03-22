@@ -9,5 +9,7 @@ public:
 };
 
 int main(){
+	Road road;
 	
+	return 0;
 }
