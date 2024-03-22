@@ -12,7 +12,7 @@ public:
 	}
 };
 
-void inputFromConfig(Road road){
+void inputFromConfig(Road& road){
 	string line;
 	ifstream fin("config.txt");
 	if (fin.is_open())
@@ -27,6 +27,11 @@ void inputFromConfig(Road road){
 
 int main(){
 	Road road;
+	cout << "Length: " << road.length << endl;
+	cout << "Width: " << road.width << endl;
+	
+	inputFromConfig(road);
+	
 	cout << "Length: " << road.length << endl;
 	cout << "Width: " << road.width << endl;
 	
