@@ -1,3 +1,5 @@
+#include <iostream>
+
 class TBook {
 public:
 	string name;
