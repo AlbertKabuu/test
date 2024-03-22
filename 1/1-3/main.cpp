@@ -7,3 +7,9 @@ public:
 		width = 11;
 	}
 };
+
+int main(){
+	Road road;
+	
+	return 0;
+}
