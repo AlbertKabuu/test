@@ -1,5 +1,6 @@
 #include<iostream>
 #include <fstream>
+using namespace std;
 
 class Road{
 public:
@@ -11,11 +12,7 @@ public:
 	}
 };
 
-int main(){
-	Road road;
-	cout << "Length: " << road.length << endl;
-	cout << "Width: " << road.width << endl;
-	
+void inputFromConfig(Road road){
 	string line;
 	ifstream fin("config.txt");
 	if (fin.is_open())
@@ -26,6 +23,12 @@ int main(){
 		road.width = stoi(line);
 	}
 	fin.close();
+}
+
+int main(){
+	Road road;
+	cout << "Length: " << road.length << endl;
+	cout << "Width: " << road.width << endl;
 	
 	return 0;
 }
