@@ -16,5 +16,13 @@ int main(){
 	cout << "Length: " << road.length << endl;
 	cout << "Width: " << road.width << endl;
 	
+	cout << "enter length: " << endl;
+	cin >> road.length;
+	cout << "enter width: " << endl;
+	cin >> road.width;
+
+	cout << "Length: " << road.length << endl;
+	cout << "Width: " << road.width << endl;
+	
 	return 0;
 }
