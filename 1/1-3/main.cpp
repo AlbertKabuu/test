@@ -16,5 +16,16 @@ int main(){
 	cout << "Length: " << road.length << endl;
 	cout << "Width: " << road.width << endl;
 	
+	string line;
+	ifstream fin("config.txt");
+	if (fin.is_open())
+	{
+		getline(fin, line);
+		road.length = stof(line);
+		getline(fin, line);
+		road.width = stoi(line);
+	}
+	fin.close();
+	
 	return 0;
 }
