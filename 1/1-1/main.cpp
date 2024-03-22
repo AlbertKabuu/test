@@ -1,4 +1,5 @@
 class Road {
+	public:
 	double lenght;
 	int Width;
 };
