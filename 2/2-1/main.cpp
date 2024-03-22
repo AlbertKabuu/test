@@ -13,4 +13,6 @@ public:
 
 void main() {
 	Road road;
+	cout << "Length: " << road.length << endl;
+	cout << "Width: " << road.width << endl;
 }
