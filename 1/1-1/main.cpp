@@ -1,5 +1,5 @@
-#include<stdio.h>
 #include<iostream>
+
 class Road {
 	public:
 	double lenght;
