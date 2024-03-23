@@ -87,4 +87,7 @@ class Road {
 int main() {
 	Car car(1, 11, 111);
 	car.showParameters();
+	
+	Road road(150, 75);
+	road.showParameters();
 }
