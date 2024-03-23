@@ -77,6 +77,9 @@ class Road {
 				cout << "Unable to open file" << endl;
 			}
 		}
-		
+		void showParameters() {
+			cout << "Length: " << length << endl;
+			cout << "Width: " << width << endl;
+		}
 		
 };
