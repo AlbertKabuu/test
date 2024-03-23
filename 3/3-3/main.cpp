@@ -15,7 +15,10 @@ class Car {
 			cout << "X: " << x << endl;
 			cout << "Y: " << y << endl;
 		}
-
+		void setParameters(int x, int y) {
+			this->x = x;
+			this->y = y;
+		}
 
 
 
