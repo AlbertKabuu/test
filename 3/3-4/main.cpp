@@ -39,7 +39,22 @@ int main() {
 		cout << "er" << endl;
 	}
 
-	
+	string author;
+	cout << "author: ";
+	cin >> author;
+	Thereis = false;
+	for (int i = 0; i < s; i++) {
+		if (books[i].Author == author) {
+			cout << "Name: " << books[i].Name << endl;
+			cout << "Author: " << books[i].Author << endl;
+			cout << "Count: " << books[i].Count << endl;
+			Thereis = true;
+			break;
+		}
+	}
+	if (!Thereis) {
+		cout << "er" << endl;
+	}
 
 	
 
