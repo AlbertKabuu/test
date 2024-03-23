@@ -7,4 +7,7 @@ class Road {
 			length = 0;
 			width = 0;
 		}
+		void setLength(int _length){
+			length = _length;
+		}
 };
