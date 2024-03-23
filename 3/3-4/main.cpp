@@ -22,7 +22,22 @@ int main() {
 	}
 	else return 1;
 
-	
+	string name;
+	cout << "name: ";
+	getline(cin, name);
+	bool Thereis = false;
+	for (int i = 0; i < s; i++) {
+		if (books[i].Name == name) {
+			cout << "Name: " << books[i].Name << endl;
+			cout << "Author: " << books[i].Author << endl;
+			cout << "Count: " << books[i].Count << endl;
+			Thereis = true;
+			break;
+		}
+	}
+	if (!Thereis) {
+		cout << "er" << endl;
+	}
 
 	
 
