@@ -10,4 +10,9 @@ public:
         Author = "";
         Count = 0;
     }
+	TBook(string newName, string newAuthor, int newCount) {
+        Name = newName;
+        Author = newAuthor;
+        Count = newCount;
+    }
 };
