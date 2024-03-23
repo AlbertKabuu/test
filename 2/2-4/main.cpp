@@ -41,4 +41,9 @@ int main(){
     book.setCount(1);
 	
 	TBook book1("The Unnamable", "H. P. Lovecraft", 11);
+	
+	cout << "1: " << book.getName() << ", " << book.getAuthor() << ", " << book.getCount() << endl;
+    cout << "2: " << book1.getName() << ", " << book1.getAuthor() << ", " << book1.getCount() << endl;
+
+    return 0;
 }
