@@ -1,3 +1,8 @@
+#include <iostream>
+#include <fstream>
+#include <string>
+using namespace std;
+
 class Car {
 	private:
 		int x, y;
