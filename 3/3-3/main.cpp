@@ -11,7 +11,10 @@ class Car {
 			this->x = x;
 			this->y = y;
 		}
-
+		void showParameters() {
+			cout << "X: " << x << endl;
+			cout << "Y: " << y << endl;
+		}
 
 
 
