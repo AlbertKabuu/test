@@ -1,4 +1,5 @@
 #include <iostream>
+using namespace std;
 
 class Road {
 	private:
@@ -20,3 +21,10 @@ class Road {
 			cout << "Width: " << width << endl;
 		}
 };
+
+int main() {
+    Road road;
+    road.showParameters();
+
+    return 0;
+}
