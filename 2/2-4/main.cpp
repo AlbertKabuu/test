@@ -33,3 +33,11 @@ public:
     }
 	
 };
+
+int main(){
+	TBook book;
+    book.setName("At the Mountains of Madness");
+    book.setAuthor("H. P. Lovecraft");
+    book.setCount(1);
+
+}
