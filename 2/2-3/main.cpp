@@ -1,3 +1,6 @@
+#include <iostream>
+#include <fstream>
+
 class Road {
 	private:
 		int length;
