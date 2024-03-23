@@ -41,4 +41,7 @@ int main() {
 	car.showParameters();
 	
 	cout << "x: " << car.getX() << endl;
+		
+	Car car1;
+	car1.showParameters();
 }
