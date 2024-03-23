@@ -39,7 +39,15 @@ class Road {
 		int length;
 		int width;
 		
-	
+	public:
+		Road() {
+			length = 0;
+			width = 0;
+		}
+		Road(int newLength, int newWidth){
+			length = newLength;
+			width = newWidth;
+		}
 		
 		
 		
