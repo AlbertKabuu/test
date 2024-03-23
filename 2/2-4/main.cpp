@@ -20,4 +20,7 @@ public:
     }void setAuthor(string newAuthor) {
         Author = newAuthor;
     }
+	void setCount(int newCount) {
+        Count = newCount;
+    }
 };
