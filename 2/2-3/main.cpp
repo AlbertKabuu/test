@@ -27,4 +27,8 @@ class Road {
 				file.close();
 			}
 		}
+		void showParameters() {
+			cout << "Length: " << length << endl;
+			cout << "Width: " << width << endl;
+		}
 };
