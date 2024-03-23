@@ -19,7 +19,9 @@ class Car {
 			this->x = x;
 			this->y = y;
 		}
-
+		void moveX() {
+			x++;
+		}
 
 
 
