@@ -28,5 +28,8 @@ public:
     }
 	string getAuthor() const {
         return Author;
+    }int getCount() const {
+        return Count;
     }
+	
 };
