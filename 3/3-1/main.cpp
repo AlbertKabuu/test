@@ -29,5 +29,7 @@ class Car {
 		int getP() const {
 			return this->p;
 		}
-		
+		int getV() const {
+			return this->v;
+		}
 };
