@@ -75,7 +75,9 @@ class Road {
 			}
 		}
 		
-		
+		int getLenght() const{
+			return length;
+		}
 		
 		
 };
