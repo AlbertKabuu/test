@@ -48,7 +48,12 @@ class Road {
 			length = newLength;
 			width = newWidth;
 		}
-		
+		void setLength(int newLength){
+			length = newLength;
+		}
+		void setWidth(int newWidth){
+			width = newWidth;
+		}
 		
 		
 		
