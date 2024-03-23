@@ -83,3 +83,8 @@ class Road {
 		}
 		
 };
+
+int main() {
+	Car car(1, 11, 111);
+	car.showParameters();
+}
