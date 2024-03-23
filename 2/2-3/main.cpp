@@ -37,5 +37,7 @@ int main() {
     Road road;
     road.showParameters();
 	
+	road.setParameters();
+    road.showParameters();
     return 0;
 }
