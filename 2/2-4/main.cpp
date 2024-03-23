@@ -17,5 +17,7 @@ public:
     }
 	void setName(string newName) {
         Name = newName;
+    }void setAuthor(string newAuthor) {
+        Author = newAuthor;
     }
 };
