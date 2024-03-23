@@ -51,7 +51,29 @@ class Road {
 		void setWidth(int newWidth){
 			width = newWidth;
 		}
-		
+		void setParameters(){
+			ifstream file;
+			
+			file.open("config.txt");
+			if (file.is_open()) {
+				string line;
+				
+				getline(file, line);
+				size_t slashPos = line.find("\\");
+				string firstNumber = line.substr(0, slashPos);
+				length = stoi(firstNumber);
+
+				getline(file, line);
+				slashPos = line.find("\\\\");
+				string secondNumber = line.substr(0, slashPos);
+				width = stoi(secondNumber);
+
+				file.close();
+			}
+			else {
+				cout << "Unable to open file" << endl;
+			}
+		}
 		
 		
 		
