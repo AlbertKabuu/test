@@ -39,5 +39,6 @@ int main(){
     book.setName("At the Mountains of Madness");
     book.setAuthor("H. P. Lovecraft");
     book.setCount(1);
-
+	
+	TBook book1("The Unnamable", "H. P. Lovecraft", 11);
 }
