@@ -33,3 +33,12 @@ class Car {
 			return this->v;
 		}
 };
+
+int main() {
+	Car car(1, 11, 111);
+	car.showParameters();
+	car.setParameters(2, 22, 222);
+	car.showParameters();
+	
+	cout << "x: " << car.getX() << endl;
+}
