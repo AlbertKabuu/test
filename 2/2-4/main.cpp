@@ -23,4 +23,7 @@ public:
 	void setCount(int newCount) {
         Count = newCount;
     }
+	string getName() const {
+        return Name;
+    }
 };
