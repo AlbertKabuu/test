@@ -33,3 +33,15 @@ class Car {
 			return this->v;
 		}
 };
+
+class Road {
+	private:
+		int length;
+		int width;
+		
+	
+		
+		
+		
+		
+};
