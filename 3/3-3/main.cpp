@@ -78,6 +78,9 @@ class Road {
 		int getLenght() const{
 			return length;
 		}
-		
+		void showParameters() {
+			cout << "Length: " << length << endl;
+			cout << "Width: " << width << endl;
+		}
 		
 };
