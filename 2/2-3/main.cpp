@@ -26,6 +26,7 @@ class Road {
 				length = stoi(firstNumber);
 
 				getline(file, line);
+				slashPos = line.find("\\\\");
 				string secondNumber = line.substr(0, slashPos);
 				width = stoi(secondNumber);
 
