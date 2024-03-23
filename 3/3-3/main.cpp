@@ -84,3 +84,14 @@ class Road {
 		}
 		
 };
+
+int main() {
+	Road road(15, 1);
+	Car car(0,0);
+    for (int i = 0; i < road.getLenght(); i++) {
+        car.moveX();
+        cout << "X: " << car.getX() << endl;
+    }
+    return 0;
+
+}
