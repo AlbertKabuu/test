@@ -25,6 +25,9 @@ class Road {
 int main() {
     Road road;
     road.showParameters();
-
+	
+	road.setLength(11);
+	road.setWidth(111);
+	road.showParameters();
     return 0;
 }
