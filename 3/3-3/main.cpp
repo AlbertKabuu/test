@@ -23,6 +23,10 @@ class Car {
 			x++;
 		}
 
-
-
+		int getX() const {
+			return this->x;
+		}
+		int getY() const {
+			return this->y;
+		}
 };
