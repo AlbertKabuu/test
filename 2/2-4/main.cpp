@@ -15,4 +15,7 @@ public:
         Author = newAuthor;
         Count = newCount;
     }
+	void setName(string newName) {
+        Name = newName;
+    }
 };
