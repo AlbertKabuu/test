@@ -26,4 +26,7 @@ public:
 	string getName() const {
         return Name;
     }
+	string getAuthor() const {
+        return Author;
+    }
 };
