@@ -13,4 +13,8 @@ class Road {
 		void setWidth(int _width){
 			width = _width;
 		}
+		void showParameters() {
+			cout << "Length: " << length << endl;
+			cout << "Width: " << width << endl;
+		}
 };
